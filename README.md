@@ -1,9 +1,22 @@
-# Reinforcement-Learning
+# TP2 : OpenAI Gym Labs
 
-This repository contains four branches, each dedicated to a specific reinforcement learning lab
+## Lab 1: MountainCar-v0 with Function Approximation
 
-## Branches and Labs
+In this lab, the **MountainCar-v0** environment is implemented using:
+- **Function approximation**: To represent the Q-function in continuous state spaces.
+- **Epsilon-greedy exploration**: To balance exploration and exploitation during training.
 
-1. **Reinforcement-Learning - TP1:**
-    - This project explores value iteration and policy iteration algorithms in a maze environment modeled as an MDP. The goal is to optimize policies by maximizing expected rewards, with a comparative analysis of computational efficiency. Visualizations illustrate convergence rates and performance.
+### Objective:
+Train an agent to drive a car up a steep hill by approximating the Q-values and improving its policy iteratively.
+
+---
+
+## Lab 2: FrozenLake with Q-Learning
+
+In this lab, the **FrozenLake** environment is implemented using:
+- **Q-learning algorithm**: To learn an optimal policy for navigating the grid.
+- **Epsilon-greedy exploration**: To explore the state-action space effectively.
+
+### Objective:
+Train an agent to navigate a grid world, avoid falling into holes, and reach the goal.
 
