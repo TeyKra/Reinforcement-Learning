@@ -1,6 +1,6 @@
 # Reinforcement-Learning
 
-This repository contains two branches, each dedicated to a specific reinforcement learning lab.
+This repository contains three branches, each dedicated to a specific reinforcement learning lab.
 
 ## Branches and Labs
 
@@ -19,3 +19,7 @@ This repository contains two branches, each dedicated to a specific reinforcemen
             - The Q-learning algorithm to learn an optimal policy for navigating the grid.
             - Epsilon-greedy exploration to explore the state-action space effectively.
         - **Objective**: Train an agent to navigate a grid world, avoid falling into holes, and reach the goal. The agent iteratively updates the Q-values to converge towards an optimal policy.
+
+3. **Reinforcement-Learning - TP3: Deep Q-Network (DQN) Implementation**
+    - This project focuses on implementing the Deep Q-Network (DQN) algorithm in the MountainCar-v0 environment. Unlike table-based RL approaches, DQN uses a neural network to approximate the Q-function in continuous state spaces.
+    - **Objective**: Train an agent to overcome the steep hill by leveraging deep reinforcement learning techniques. The agent learns to optimize its policy through iterative improvements in Q-value approximations.
