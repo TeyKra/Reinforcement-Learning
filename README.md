@@ -1,6 +1,6 @@
 # Reinforcement-Learning
 
-This repository contains three branches, each dedicated to a specific reinforcement learning lab.
+This repository contains four branches, each dedicated to a specific reinforcement learning lab.
 
 ## Branches and Labs
 
@@ -23,3 +23,11 @@ This repository contains three branches, each dedicated to a specific reinforcem
 3. **Reinforcement-Learning - TP3: Deep Q-Network (DQN) Implementation**
     - This project focuses on implementing the Deep Q-Network (DQN) algorithm in the MountainCar-v0 environment. Unlike table-based RL approaches, DQN uses a neural network to approximate the Q-function in continuous state spaces.
     - **Objective**: Train an agent to overcome the steep hill by leveraging deep reinforcement learning techniques. The agent learns to optimize its policy through iterative improvements in Q-value approximations.
+
+4. **Reinforcement-Learning - TP4: Actor-Critic with Softmax Policy - Pendulum Swing-Up**
+    - This project develops an Actor-Critic (AC) agent to solve a continuing task in the Pendulum environment using:
+        - A softmax-based policy representation for discrete action spaces, parameterized to optimize the agent's decision-making process.
+        - The average reward framework to enable long-term learning in continuing tasks.
+        - Differential temporal difference (TD) error to update the critic and estimate the value function accurately.
+        - Gradient-based updates to improve the actor by approximating and sampling the gradient of the objective.
+    - **Objective**: Train an agent to learn an optimal policy for swinging up and balancing the pendulum using Actor-Critic reinforcement learning techniques. The agent iteratively improves its performance through policy and value updates.
