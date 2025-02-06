@@ -43,8 +43,7 @@ This repository contains four branches, each dedicated to a specific reinforceme
 
     - **Objective**: Train a robot to navigate an environment while avoiding obstacles through reinforcement learning. The robot will learn optimal movement strategies by exploring various actions and updating its policy based on received rewards.
     - **Demonstration**:
-        - Watch the robot in action using the trained **Q-learning** algorithm:  
-        📹 **[Watch Video](INSERT_VIDEO_LINK_HERE)**  
+        - Watch the robot in action using the trained **Q-learning** algorithm.  
 
 6. **Reinforcement-Learning - Lab6: Swinging Up the Pendulum Using DDPG**  
     - This lab focuses on implementing the **Deep Deterministic Policy Gradient (DDPG)** algorithm to train an agent in the **Pendulum** environment. DDPG is an actor-critic reinforcement learning method designed for continuous action spaces.  
