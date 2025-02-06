@@ -1,4 +1,4 @@
-# Practice Lab: Actor-Critic with Softmax Policy - Pendulum Swing-Up
+#  Lab4: Actor-Critic with Softmax Policy - Pendulum Swing-Up
 
 ## Overview
 
