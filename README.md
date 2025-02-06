@@ -1,19 +1,22 @@
-#  Lab4: Actor-Critic with Softmax Policy - Pendulum Swing-Up
-
 ## Overview
 
-This lab focuses on developing and implementing a **softmax-based Actor-Critic (AC)** agent for a continuing task. The objective is to gain practical insights into reinforcement learning techniques, particularly in:
+This lab focuses on implementing the **Q-learning** algorithm, a reinforcement learning technique used to train an AI agent through trial and error. The objective is to enable a robot, using the **AlphAI** platform, to navigate an environment while avoiding obstacles.
 
-1. **Average Reward Framework**:
-   - Utilize the average reward framework to evaluate performance in a continuing task.
+### Key Concepts:
+- **Reinforcement Learning**: The agent learns autonomously by exploring different strategies and receiving rewards or penalties.
+- **Q-learning Algorithm**: A table-based approach where the agent updates a **Q-table** to estimate the best possible actions for each state.
+- **Exploration vs Exploitation**: The agent must balance trying new actions (exploration) and leveraging known good actions (exploitation).
 
-2. **Policy Representation**:
-   - Represent the policy as a **parameterized function** suited for discrete action spaces.
+### Lab Objectives:
+1. **Implement the Q-learning algorithm in Python** and apply it to train a robot to avoid obstacles.
+2. **Configure the environment** in the AlphAI platform and initialize the Q-table.
+3. **Develop decision-making functions** that allow the agent to act based on Q-values.
+4. **Introduce exploration mechanisms** to ensure the agent discovers optimal strategies.
+5. **Optimize learning parameters** (learning rate, discount factor) for better performance.
 
-3. **Gradient Approximation**:
-   - Explore methods to **approximate and sample the gradient** of the objective for updating the actor.
+### Demonstration
 
-4. **Critic Update**:
-   - Implement the **differential Temporal Difference (TD) error** for updating the critic.
+Watch the robot in action using the trained **Q-learning** algorithm:  
+📹 **[Watch Video](https://youtu.be/J8PcfdjdevA)**  
 
-This lab will equip you with a deeper understanding of the Actor-Critic method and its application to control problems like the Pendulum Swing-Up.
+
