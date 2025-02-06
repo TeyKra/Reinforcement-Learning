@@ -1,6 +1,6 @@
-# TP2 : OpenAI Gym Labs
+# Lab2 : OpenAI Gym Labs
 
-## Lab 1: MountainCar-v0 with Function Approximation
+## 1: MountainCar-v0 with Function Approximation
 
 In this lab, the **MountainCar-v0** environment is implemented using:
 - **Function approximation**: To represent the Q-function in continuous state spaces.
@@ -11,7 +11,7 @@ Train an agent to drive a car up a steep hill by approximating the Q-values and 
 
 ---
 
-## Lab 2: FrozenLake with Q-Learning
+## 2: FrozenLake with Q-Learning
 
 In this lab, the **FrozenLake** environment is implemented using:
 - **Q-learning algorithm**: To learn an optimal policy for navigating the grid.
