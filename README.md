@@ -1,4 +1,4 @@
-# TP3: Deep Q-Learning (DQN)
+# Lab3: Deep Q-Learning (DQN)
 
 In this lab, the MountainCar-v0 environment is implemented using:
 
