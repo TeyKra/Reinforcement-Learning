@@ -4,30 +4,39 @@ This repository contains four branches, each dedicated to a specific reinforceme
 
 ## Branches and Labs
 
-1. **Reinforcement-Learning - TP1:**
+1. **Reinforcement-Learning - Lab1:**
     - This project explores value iteration and policy iteration algorithms in a maze environment modeled as an MDP. The goal is to optimize policies by maximizing expected rewards, with a comparative analysis of computational efficiency. Visualizations illustrate convergence rates and performance.
 
-2. **Reinforcement-Learning - TP2: OpenAI Gym Labs:**
-    - **Lab 1: MountainCar-v0 with Function Approximation**
+2. **Reinforcement-Learning - Lab2: OpenAI Gym Labs:**
+    - **1: MountainCar-v0 with Function Approximation**
         - This project implements the MountainCar-v0 environment using:
             - Function approximation to represent the Q-function in continuous state spaces.
             - Epsilon-greedy exploration to balance exploration and exploitation during training.
         - **Objective**: Train an agent to drive a car up a steep hill by approximating the Q-values and improving its policy iteratively.
 
-    - **Lab 2: FrozenLake with Q-Learning**
+    - **2: FrozenLake with Q-Learning**
         - This project implements the FrozenLake environment using:
             - The Q-learning algorithm to learn an optimal policy for navigating the grid.
             - Epsilon-greedy exploration to explore the state-action space effectively.
         - **Objective**: Train an agent to navigate a grid world, avoid falling into holes, and reach the goal. The agent iteratively updates the Q-values to converge towards an optimal policy.
 
-3. **Reinforcement-Learning - TP3: Deep Q-Network (DQN) Implementation**
+3. **Reinforcement-Learning - Lab3: Deep Q-Network (DQN) Implementation**
     - This project focuses on implementing the Deep Q-Network (DQN) algorithm in the MountainCar-v0 environment. Unlike table-based RL approaches, DQN uses a neural network to approximate the Q-function in continuous state spaces.
     - **Objective**: Train an agent to overcome the steep hill by leveraging deep reinforcement learning techniques. The agent learns to optimize its policy through iterative improvements in Q-value approximations.
 
-4. **Reinforcement-Learning - TP4: Actor-Critic with Softmax Policy - Pendulum Swing-Up**
+4. **Reinforcement-Learning - Lab4: Actor-Critic with Softmax Policy - Pendulum Swing-Up**
     - This project develops an Actor-Critic (AC) agent to solve a continuing task in the Pendulum environment using:
         - A softmax-based policy representation for discrete action spaces, parameterized to optimize the agent's decision-making process.
         - The average reward framework to enable long-term learning in continuing tasks.
         - Differential temporal difference (TD) error to update the critic and estimate the value function accurately.
         - Gradient-based updates to improve the actor by approximating and sampling the gradient of the objective.
     - **Objective**: Train an agent to learn an optimal policy for swinging up and balancing the pendulum using Actor-Critic reinforcement learning techniques. The agent iteratively improves its performance through policy and value updates.
+
+5. **Reinforcement-Learning - Lab5: Swinging Up the Pendulum Using DDPG**  
+    - This project focuses on implementing the **Deep Deterministic Policy Gradient (DDPG)** algorithm to train an agent in the **Pendulum** environment. DDPG is an actor-critic reinforcement learning method designed for continuous action spaces.  
+        - Utilizing the **average reward framework** for learning in continuing tasks.  
+        - Representing the **policy as a neural network (NN)** to handle continuous action spaces efficiently.  
+        - Approximating and **sampling the gradient of the objective** to update the actor network.  
+        - Updating the critic using **differential temporal difference (TD) error** to estimate the value function accurately.  
+    - **Objective**: Train an agent to learn an optimal **swing-up and balancing strategy** for the pendulum using **DDPG reinforcement learning techniques**. The agent iteratively improves its policy through gradient-based updates of the actor and critic networks.  
+
