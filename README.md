@@ -1,4 +1,4 @@
-# TP1 Reinforcement-Learning
+# Lab1 Reinforcement-Learning
 
 ### Dynamic Programming for Reinforcement Learning in Maze Environments
 
