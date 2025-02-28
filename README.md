@@ -1,6 +1,6 @@
 # Reinforcement-Learning
 
-This repository contains four branches, each dedicated to a specific reinforcement learning lab.
+This repository contains 7 branches, each dedicated to a specific reinforcement learning lab.
 
 ## Branches and Labs
 
@@ -53,3 +53,11 @@ This repository contains four branches, each dedicated to a specific reinforceme
         - Updating the critic using **differential temporal difference (TD) error** to estimate the value function accurately.  
     - **Objective**: Train an agent to learn an optimal **swing-up and balancing strategy** for the pendulum using **DDPG reinforcement learning techniques**. The agent iteratively improves its policy through gradient-based updates of the actor and critic networks.  
 
+7. **Reinforcement-Learning - Lab7: Introduction to Stable Baselines - PPO**
+    - This lab leverages the RL Baselines3 Zoo framework, which utilizes the Stable Baselines3 library to provide a unified interface for reinforcement learning.
+    - **Key Features:**
+        - **Training Scripts:** Utilize pre-built scripts for training agents.
+        - **Evaluation:** Assess agent performance using standardized evaluation methods.
+        - **Hyperparameter Tuning:** Easily adjust and optimize hyperparameters.
+        - **Visualization:** Plot results and record training videos for comprehensive analysis.
+    - **Objective:** Learn the fundamentals of using the Stable Baselines3 library by creating, training, and evaluating a PPO model. This lab demonstrates how simple it is to switch between different RL algorithms thanks to the consistent interface provided by the framework.
